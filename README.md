@@ -1,58 +1,71 @@
-# TravelTide Analysis
+# TravelTide Customer Segmentation Analysis
 
-**Project Description**
+## Project Description
 This project focuses on customer segmentation and perk optimization for TravelTide, a fast-growing e-booking startup. The goal is to improve customer retention by providing personalized rewards based on user behavior and engagement patterns.This project analyzes TravelTide's user engagement and performance metrics, leveraging data insights to improve platform functionality and user experience.
 
-**Project Summary**
+## Project Summary
 
 This repository contains an analysis of TravelTide’s user behavior and spending habits, leading to data-driven recommendations for perk assignments.
 
-**Key Points and Insights:**
+## Key Points and Insights:
 
--  Customer Segmentation: K-Means clustering was applied to segment users based on demographics, travel frequency, and booking patterns. The segmentation allowed us to identify distinct user groups with varying levels of spending and engagement.
+-  **Customer Segmentation:** K-Means clustering was applied to segment users based on demographics, travel frequency, and booking patterns. The segmentation allowed us to identify distinct user groups with varying levels of spending and engagement.
 
--  Booking Trends: The majority of users engage with the platform multiple times before completing a booking. Repeat visitors show a significantly higher conversion rate, reinforcing the importance of sustained engagement.
+-  **Booking Trends:** The majority of users engage with the platform multiple times before completing a booking. Repeat visitors show a significantly higher conversion rate, reinforcing the importance of sustained engagement.
 
--  Preferred Perks: The analysis confirmed that users have distinct preferences for perks. Budget-conscious travelers favor discounts, while frequent flyers are more interested in priority services and upgrades.
+-  **Preferred Perks:** The analysis confirmed that users have distinct preferences for perks. Budget-conscious travelers favor discounts, while frequent flyers are more interested in priority services and upgrades.
 
--  Cancellation Behavior: A segment of users demonstrates a high cancellation rate, necessitating flexible booking options to reduce churn and enhance retention.
+-  **Cancellation Behavior:** A segment of users demonstrates a high cancellation rate, necessitating flexible booking options to reduce churn and enhance retention.
 
--  Spending Patterns: High-value users, particularly luxury travelers and business clients, tend to bundle hotel and flight bookings, making them ideal candidates for exclusive rewards and premium services.
+-  **Spending Patterns:** High-value users, particularly luxury travelers and business clients, tend to bundle hotel and flight bookings, making them ideal candidates for exclusive rewards and premium services.
 
--  Model Evaluation: Random Forest was used to assess the segmentation model’s effectiveness, confirming that user behavior and travel spending can reliably predict perk preferences.
+-  **Model Evaluation:** Random Forest was used to assess the segmentation model’s effectiveness, confirming that user behavior and travel spending can reliably predict perk preferences.
 
--  Optimization Goal: The project aims to refine the perk assignment strategy to maximize retention and improve booking conversion rates through targeted, data-driven recommendations.
+-  **Optimization Goal:** The project aims to refine the perk assignment strategy to maximize retention and improve booking conversion rates through targeted, data-driven recommendations.
 
-**Relevant Files:**
+## Relevant Files:
 
--  Reports:
+-  **Reports:**
 
-reports/Data Science Project Report_TravelTide(2).pdf
-reports/Executive_Summary_TravelTide.pdf
+  reports/Data Science Project Report_TravelTide(2).pdf
+  
+  reports/Executive_Summary_TravelTide.pdf
 
--  Presentation:
+-  **Presentation:**
 
-presentation/TravelTideProjectPresentation (2).pptx
-presentation/Video TravelTide1.mp4
+  presentation/TravelTideProjectPresentation (2).pptx
+  
+  presentation/Video TravelTide1.mp4
 
--  Raw Data:
-raw data/flights.csv
-raw data/users.csv
-raw data/hotels.csv
-raw data/sessions_base.csv
-raw data/sessions.csv
+- **Raw Data:**
 
--  Scripts and Notebooks:
-scripts/V_3_NewTravelTide (2).ipynb - Jupyter Notebook containing the analysis code.
+  raw data/flights.csv
+  
+  raw data/users.csv
+  
+  raw data/hotels.csv
+  
+  raw data/sessions_base.csv
+  
+  raw data/sessions.csv
 
--  Output Files:
-output/agg_df (2).csv - Preprocessed and aggregated data used for reproducing the results of the analysis.
-output/merged_with_clusters(2).csv - Final dataset including customer clusters and assigned perks.
+-  **Scripts:**
 
+  scripts/V_3_NewTravelTide (2).ipynb - Jupyter Notebook containing the analysis code.
 
+  - **Notebooks:**
 
--  Project Documentation:
-README.md
+  notebooks/V_3_NewTravelTide  - GoggleColab Notebook containing the analysis code.
+
+-  **Output Files:**
+    
+  output/agg_df (2).csv - Preprocessed and aggregated data used for reproducing the results of the analysis.
+  
+  output/merged_with_clusters(2).csv - Final dataset including customer clusters and assigned perks.
+
+-  **Project Documentation:**
+
+   README.md
 
 
 ## Installation
@@ -83,19 +96,15 @@ python v_3_newtraveltide.py
 ## Directory Structure
 
 ```python
-traveltide-analysis/
-│-- data/                # Contains raw and processed data
-│-- scripts/             # Python scripts for analysis
+
+Project-TravelTide/
+│-- output/              # Contains generated outputs (videos, reports, etc.)
+│-- presentation/        # Contains presentation files
+│-- raw data/            # Contains raw and processed data
 │-- reports/             # Final reports and summaries
-│-- V_3_NewTravelTide (2).ipynb  # Jupyter Notebook
+│-- scripts/             # Python scripts for analysis
+│-- notebooks/           # Google Colab Notebooks
 │-- README.md            # Project documentation
-│-- Data Science Project Report_TravelTide(2).pdf
-│-- Executive_Summary_TravelTide.pdf
-│-- TravelTideProjectPresentation (2).pptx
-│-- Row Data/            # Contains raw data 
-│-- agg_df (2).csv       
-│-- merged_with_clusters(2).csv 
-│-- Video TravelTide1.mp4
 ```
 ## Dependencies
 
