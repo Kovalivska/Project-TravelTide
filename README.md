@@ -35,9 +35,9 @@ Project Presentation: TravelTideProjectPresentation (2).pptx
 
 Raw Data: Row Data
 
-Aggregated Data: agg_df (2).csv
+Aggregated Data: agg_df (2).csv - This file contains preprocessed and aggregated data used for reproducing the results of the analysis.
 
-Merged Data with Clusters: merged_with_clusters(2).csv
+Merged Data with Clusters: merged_with_clusters(2).csv - This final dataset includes customer clusters and assigned perks based on segmentation results.
 
 Project Video: Video TravelTide1.mp4
 
@@ -75,9 +75,15 @@ traveltide-analysis/
 │-- data/                # Contains raw and processed data
 │-- scripts/             # Python scripts for analysis
 │-- reports/             # Final reports and summaries
-│-- v_3_newtraveltide.py # Main script
+│-- V_3_NewTravelTide (2).ipynb  # Jupyter Notebook
 │-- README.md            # Project documentation
-
+│-- Data Science Project Report_TravelTide(2).pdf
+│-- Executive_Summary_TravelTide.pdf
+│-- TravelTideProjectPresentation (2).pptx
+│-- Row Data/            # Contains raw data 
+│-- agg_df (2).csv       
+│-- merged_with_clusters(2).csv 
+│-- Video TravelTide1.mp4
 ```
 ## Dependencies
 
