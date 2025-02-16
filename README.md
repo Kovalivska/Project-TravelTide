@@ -9,21 +9,37 @@ This repository contains an analysis of TravelTide’s user behavior and spendin
 
 **Key Points and Insights:**
 
--  **Customer Segmentation:** Four key user segments were identified—Budget Travelers, Occasional Travelers, Business Travelers, and Luxury Travelers.
+-  Customer Segmentation: K-Means clustering was applied to segment users based on demographics, travel frequency, and booking patterns. The segmentation allowed us to identify distinct user groups with varying levels of spending and engagement.
 
--  **Booking Conversion Rate:** Approximately 33.94% of sessions result in a successful booking, with repeat users showing a higher conversion rate.
+-  Booking Trends: The majority of users engage with the platform multiple times before completing a booking. Repeat visitors show a significantly higher conversion rate, reinforcing the importance of sustained engagement.
 
--  **Preferred Perks:** Data analysis confirmed that users have distinct preferences for specific rewards, such as priority check-in, travel discounts, and exclusive sales.
+-  Preferred Perks: The analysis confirmed that users have distinct preferences for perks. Budget-conscious travelers favor discounts, while frequent flyers are more interested in priority services and upgrades.
 
--  **Personalized Rewards:** A decision tree model assigns perks based on spending habits and booking behavior.
+-  Cancellation Behavior: A segment of users demonstrates a high cancellation rate, necessitating flexible booking options to reduce churn and enhance retention.
+
+-  Spending Patterns: High-value users, particularly luxury travelers and business clients, tend to bundle hotel and flight bookings, making them ideal candidates for exclusive rewards and premium services.
+
+-  Model Evaluation: Random Forest was used to assess the segmentation model’s effectiveness, confirming that user behavior and travel spending can reliably predict perk preferences.
+
+-  Optimization Goal: The project aims to refine the perk assignment strategy to maximize retention and improve booking conversion rates through targeted, data-driven recommendations.
 
 **Relevant Files:**
 
-Executive Summary: [Link to document]
+Data Science Project Report: Data Science Project Report_TravelTide(2).pdf
 
-Data Science Project Report: [Link to visualization]
+Jupyter Notebook: V_3_NewTravelTide (2).ipynb
 
-CSVs Data: [Link to spreadsheet]
+Executive Summary: Executive_Summary_TravelTide.pdf
+
+Project Presentation: TravelTideProjectPresentation (2).pptx
+
+Raw Data: Row Data
+
+Aggregated Data: agg_df (2).csv
+
+Merged Data with Clusters: merged_with_clusters(2).csv
+
+Project Video: Video TravelTide1.mp4
 
 
 
