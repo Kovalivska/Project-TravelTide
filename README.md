@@ -47,7 +47,7 @@ Project Video: Video TravelTide1.mp4
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-repo/traveltide-analysis.git
+git clone [https://github.com/your-repo/traveltide-analysis.git](https://github.com/Kovalivska/Project-TravelTide.git)
 ```
 2. Navigate to the project directory:
 
