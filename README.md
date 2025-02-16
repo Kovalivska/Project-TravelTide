@@ -25,22 +25,34 @@ This repository contains an analysis of TravelTide’s user behavior and spendin
 
 **Relevant Files:**
 
-Data Science Project Report: Data Science Project Report_TravelTide(2).pdf
+-  Reports:
 
-Jupyter Notebook: V_3_NewTravelTide (2).ipynb
+reports/Data Science Project Report_TravelTide(2).pdf
+reports/Executive_Summary_TravelTide.pdf
 
-Executive Summary: Executive_Summary_TravelTide.pdf
+-  Presentation:
 
-Project Presentation: TravelTideProjectPresentation (2).pptx
+presentation/TravelTideProjectPresentation (2).pptx
+presentation/Video TravelTide1.mp4
 
-Raw Data: Row Data
+-  Raw Data:
+raw data/flights.csv
+raw data/users.csv
+raw data/hotels.csv
+raw data/sessions_base.csv
+raw data/sessions.csv
 
-Aggregated Data: agg_df (2).csv - This file contains preprocessed and aggregated data used for reproducing the results of the analysis.
+-  Scripts and Notebooks:
+scripts/V_3_NewTravelTide (2).ipynb - Jupyter Notebook containing the analysis code.
 
-Merged Data with Clusters: merged_with_clusters(2).csv - This final dataset includes customer clusters and assigned perks based on segmentation results.
+-  Output Files:
+output/agg_df (2).csv - Preprocessed and aggregated data used for reproducing the results of the analysis.
+output/merged_with_clusters(2).csv - Final dataset including customer clusters and assigned perks.
 
-Project Video: Video TravelTide1.mp4
 
+
+-  Project Documentation:
+README.md
 
 
 ## Installation
