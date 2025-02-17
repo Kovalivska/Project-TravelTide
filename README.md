@@ -27,13 +27,13 @@ This repository contains an analysis of TravelTide’s user behavior and spendin
 
 -  **Reports:**
 
-  reports/Data Science Project Report_TravelTide(2).pdf
+  reports/Data Science Project Report_TravelTide.pdf
   
   reports/Executive_Summary_TravelTide.pdf
 
 -  **Presentation:**
 
-  presentation/TravelTideProjectPresentation (2).pptx
+  presentation/TravelTideProjectPresentation.pptx
   
   presentation/Video TravelTide1.mp4
 
@@ -51,7 +51,7 @@ This repository contains an analysis of TravelTide’s user behavior and spendin
 
 -  **Scripts:**
 
-  scripts/V_3_NewTravelTide (2).ipynb - Jupyter Notebook containing the analysis code.
+  scripts/V_3_NewTravelTide.ipynb - Jupyter Notebook containing the analysis code.
 
   - **Notebooks:**
 
